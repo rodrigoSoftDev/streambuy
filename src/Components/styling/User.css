@@ -1,0 +1,26 @@
+.user{
+    margin: 10px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    justify-content: center;
+}
+
+.userForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.userForm input {
+    border: none;
+    border-bottom: 1px solid grey;
+    margin: 5px 0;
+
+}
+.userForm ::placeholder{
+    font-size: 10px;
+    position: absolute;
+    top: 2px;
+}

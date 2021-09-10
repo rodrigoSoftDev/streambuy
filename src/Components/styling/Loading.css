@@ -1,0 +1,7 @@
+.loaderContainer{
+    height: 100vh;
+    width: 100%;
+    display: inline-grid;
+    align-items: center;
+    justify-content: center;
+}

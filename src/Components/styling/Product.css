@@ -1,0 +1,58 @@
+.prodCont {
+  border-radius: 25px 25px 0px 0px;
+  position: absolute;
+  background: transparent;
+  transition: all 1s ease;
+  display: flex;
+  align-items: flex-end;
+  z-index: 999;
+}
+
+.prodSubCon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.prodDisc {
+  font-size: 0.5em;
+  font-weight: bold;
+}
+
+.prodName {
+  font-weight: bold;
+  font-size: 1.5em;
+  align-self: center;
+  color: #929292;
+}
+
+.prodDesc {
+  color: #929292;
+  font-size: 0.7em;
+  text-align: left;
+  width: 90%;
+}
+
+.prodPrice {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #EF7463;
+  font-style: italic;
+  text-align: left;
+}
+
+.prodInfo {
+  display: flex;
+  width: 90%;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.cartButton {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}

@@ -1,0 +1,10 @@
+.globalButton {
+  display: flex !important;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button p {
+  margin: 0px !important;
+  text-align: center;
+}

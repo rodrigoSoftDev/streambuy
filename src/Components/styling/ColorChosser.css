@@ -1,0 +1,28 @@
+.color-itemSelected {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    margin: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px #444242;
+}
+
+.color-itemUnselected {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    margin: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px #444242;
+    opacity: 0.5;
+}
+
+.colorContainer{
+    display: inline-grid;
+    align-content: end;
+}
+

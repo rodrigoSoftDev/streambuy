@@ -1,0 +1,40 @@
+.actCont{
+    position: fixed;
+    z-index: 999;
+    color: white;
+    right: 0;
+    text-align: -webkit-right;
+    margin-right: 10px;
+    border-radius: 25px;
+    align-self: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    justify-content: space-between;
+    width: 40px;
+    margin-left: 1px !important;
+    background: rgba(12, 12, 12, 0.39);
+}
+
+.itemEye{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2em;
+    color: white;
+}
+
+.itemHeart{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   font-size: 1.2em;
+}
+
+.itemText {
+    font-size: 0.8em;
+}

@@ -1,0 +1,35 @@
+.chatName{
+    font-size: 10px;
+    color: #FE7463;
+}
+  
+.chatMessage{
+    font-size: 12px;
+    color: #F9F9F9;
+}
+
+.chatView {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    background: #070707;
+    opacity: 0.71;
+    border-radius: 0px 18px 18px 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 18px;
+   
+}
+
+.chatBody{
+    height: 30% !important;
+    position: fixed;
+    z-index: 999;
+    width: 200px;
+    bottom: 0px;
+    height: 250px;
+    margin-bottom: 90px;
+    overflow: auto;
+    background: transparent;
+}
+ 

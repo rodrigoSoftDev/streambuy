@@ -1,0 +1,33 @@
+.vp-center{
+  justify-content: start !important;
+}
+
+.action-sheet--material{
+  background: white;
+  border-radius: 20px 20px 0px 0px;
+  padding: 5px;
+}
+
+.action-sheet{
+  background: white !important;
+  border-radius: 20px 20px 0px 0px;
+  padding: 5px;
+  width: 100%;
+  left: 0px !important;
+  right: 0px !important;
+  bottom: 0px !important;
+}
+
+.containerRoutes{
+  display: flex;
+  flex-direction: column; 
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 10px 0;
+}
+
+.ons-select{
+  display: flex !important;
+}

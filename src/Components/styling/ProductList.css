@@ -1,0 +1,43 @@
+.productsList{
+    position: fixed;
+    z-index: 999;
+    flex-direction: column;
+    margin: 10px 10px 10px 0;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    width: fit-content;
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-height: 40%;
+    overflow-y: scroll
+}   
+
+.pfpic{
+    height: 65px;
+    border-radius: 0 10px 10px 0 ;
+    margin-top: 4.5px;
+    margin-bottom: 4.5px;
+  }
+
+.prodPic{
+    border-radius: 25px;
+    display: flex;
+    align-self: flex-end;
+    width: 25%;
+    justify-content: center;
+}
+
+.productSeparator{
+    height: 1px;
+    background-color: #8e8e8e5c;
+    border-radius: 5px;
+}
+
+.sticky{
+    position: relative;
+    color: #bbbb0b !important;
+    margin-left: -12px;
+    margin-top: 5px;
+    margin-right: 5px;
+}

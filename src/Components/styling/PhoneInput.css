@@ -1,0 +1,86 @@
+.react-tel-input .special-label {
+    display: none;
+    max-height: 0px;
+  }
+  
+  .react-tel-input .form-control {
+    font-style: var(--secondary-font);
+    background: white;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 0.7rem;
+    width: 90%;
+    border: 1.5px solid rgba(221, 221, 221, 0.612);
+    color: #353535 !important;
+    font-weight: 600 !important;
+    text-align: center;
+    padding-left: inherit;
+
+    margin-top: 15px;
+  }
+
+  
+  @media (min-width: 500px) and (max-width: 800px) {
+    .react-tel-input .form-control {
+      width: 98%;
+    }
+  }
+  
+  .react-tel-input .country-list {
+    margin: 2px 0 10px -1px !important;
+    border-radius: 5px !important;
+  }
+  
+  @media screen and (min-width: 800px) {
+    .react-tel-input .country-list {
+      max-height: 130px;
+    }
+  }
+  
+  .react-tel-input .selected-flag {
+    border-right: 1.5px solid rgba(221, 221, 221, 0.612);
+    position: relative;
+    width: 52px;
+    height: 100%;
+    padding: 0 0 0 11px;
+    border-radius: 3px 0 0 3px;
+    max-height: 49px;
+  }
+  
+  @media screen and (min-width: 800px) {
+    .react-tel-input .selected-flag {
+      height: 70%;
+    }
+  }
+  
+  .react-tel-input .form-control:hover {
+    border: 1.5px solid rgba(221, 221, 221, 0.612) !important;
+    outline: none !important;
+  }
+  
+  .react-tel-input .form-control:focus {
+    border-color: rgba(221, 221, 221, 0.612) !important;
+    box-shadow: none !important;
+  }
+  
+  .react-tel-input * {
+    box-sizing: inherit;
+  }
+  
+  .react-tel-input .country-list {
+    width: auto;
+  }
+  
+  .helpText {
+    color: rgb(179, 179, 179);
+    font-size: 0.6em;
+    margin-top: 3px;
+    margin-bottom: 17px;
+    font-style: italic;
+    padding-left: 11px;
+  }
+  
+  .containerClass{
+    margin-left: 5%;
+    margin-bottom: 40px;
+  }

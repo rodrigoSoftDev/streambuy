@@ -1,0 +1,29 @@
+.card{
+    margin: 2px !important;
+    display: flex;
+    align-items: center;
+    border: none;
+    justify-content: center;
+}
+.cardInput{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+.cardInput ::placeholder{
+    font-size: 10px;
+    position: absolute;
+    top: 2px;
+}
+
+
+
+.cardExpiry{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

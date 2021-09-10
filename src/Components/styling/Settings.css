@@ -1,0 +1,34 @@
+.settingsIcons {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 999;
+  flex-direction: row;
+  display: flex;
+  height: 50px;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.settingsBag {
+  height: 2.6em;
+  width: 2.6em;
+  border-radius: 50%;
+  background-color: #275eda;
+  display: flex;
+ margin-right: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.settingsUser {
+  background-color: rgba(12, 12, 12, 0.39);
+  height: 2.6em;
+  width: 2.6em;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

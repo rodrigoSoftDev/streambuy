@@ -1,0 +1,49 @@
+.chatCont {
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  z-index: 999;
+  width: 70%;
+}
+
+.inputChat {
+  color: white !important;
+  width: 100% !important;
+  height: 48px !important;
+  border: none !important;
+  background-color: transparent !important;
+}
+
+.inputChat::placeholder{
+  color: white;
+}
+
+.chatMessage {
+  display: flex;
+  align-items: flex-end;
+}
+
+.sendMessage {
+  width: 100%;
+  background-color:#c3c3c3;
+  opacity: 1;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+  height: 50px;
+}
+
+.chatItem{
+   height: 60px;
+   width: 60px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+
+

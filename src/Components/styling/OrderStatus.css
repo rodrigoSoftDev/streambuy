@@ -1,0 +1,17 @@
+.orderStatus{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    height: 100%;
+}
+
+.orderStatusIcon{
+    margin: 10px 0;
+}
+
+.orderStatusTitle{
+    text-align: center;
+    margin: 10px 0;
+}

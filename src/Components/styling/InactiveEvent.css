@@ -1,0 +1,59 @@
+.nextStream{
+    height: 80vh;
+    width: 100%;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nextStreamBody{
+    height: 60vh;
+    width: 100%;
+    display: inline-grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.nextStreamCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+}
+
+.nextStreamCount{
+    text-align: center;
+    font-size: 2em !important;
+    font-weight: 700 !important;
+    color:black ;   
+    margin-bottom: 1em;
+}
+
+.nextStreamTitle{
+    font-size: 1.6em !important;
+    color:black !important;   
+    text-align: center;
+    font-family: -webkit-pictograph;
+}
+
+
+.nextStreamNot{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    bottom: 5%;
+    line-height: 1;
+}
+.nextStreamNotTitle{
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+.buttonsContainer{
+    display: grid;
+    grid-gap: 20px;
+}
